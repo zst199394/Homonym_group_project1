@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@media only screen and (min-width: 768px) {
+    body, html {
+        height: auto;
+    }
+}
+
+.topImage {
+    position: relative;
+    min-width: 100%;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    border: solid 1px;
+    border-radius: 8px;
+    background-color: teal;
+    color: white;
+}
+
+.first-para {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    padding: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px
+}
+
+h4 {
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.searchCard {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+#startSearch {
+    background-color: #1e3f6b;
+    color: white;
+}
+
+#startSearch:hover {
+    background-color: #7d2f2f;
+    color: white;
+}
+
+.container {
+    opacity: 1;
+    transition: 1s;
+}
+
+.fade-out {
+    transition: 1s;
+    opacity: 0;
+}
+
+li {
+    padding: 40px;
+    font-size: 40px;
+}
+
+.dictH5 ,.dictPara {
+    font-size: 20px; 
+    margin-right: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.top-search {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.info {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    padding: 7px;
+    color :rgb(3, 39, 44);
+} 
+
+#history {
+    cursor: pointer;
+}
+
+#wordOfDay, #wordOfDayTwo {
+    border: solid 1px grey;
+    border-radius: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 80px;
+    box-shadow: inset 4px 4px 8px grey;
+}
+
+
+#startSearchTwo ,#clearHistory {
+    background-color: #1e3f6b;
+    color: white;
+}
+
+#startSearchTwo:hover, #clearHistory:hover {
+    color: white;
+    background-color: #7d2f2f;
+}
+
+#textarea1, #textarea2 {
+    cursor: pointer;
+    color: #1e3f6b !important;
+}
+
+#textarea1 {
+    padding: 20px;
+}
+
+.input-field textarea:focus {
+    border-bottom: 1px solid #000 !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+}
+
+.input-field textarea:focus + label {
+    color: #000 !important;
+  }
+
+#icon {
+    cursor: pointer;
+}
+
+.modal-content{
+    background-color: #1e3f6b;
+    color: white;
+    text-align: center;
+}
+
+.modal .modal-footer {
+    background-color: #1e3f6b!important;
+    text-align: center !important;
+    
+}
+
+#modal-button{
+    background-color:white;
+    color: black;
+}
+
+#modal-button:hover{
+    color: white;
+    background-color: #7d2f2f;
+}
